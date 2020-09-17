@@ -946,6 +946,17 @@
     hey-listen "^1.0.8"
     style-value-types "^3.1.6"
 
+"@popmotion/popcorn@^0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@popmotion/popcorn/-/popcorn-0.4.4.tgz#a5f906fccdff84526e3fcb892712d7d8a98d6adc"
+  integrity sha512-jYO/8319fKoNLMlY4ZJPiPu8Ea8occYwRZhxpaNn/kZsK4QG2E7XFlXZMJBsTWDw7I1i0uaqyC4zn1nwEezLzg==
+  dependencies:
+    "@popmotion/easing" "^1.0.1"
+    framesync "^4.0.1"
+    hey-listen "^1.0.8"
+    style-value-types "^3.1.7"
+    tslib "^1.10.0"
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
@@ -8184,6 +8195,14 @@ style-value-types@^3.1.6:
   dependencies:
     hey-listen "^1.0.8"
 
+style-value-types@^3.1.7:
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-3.1.9.tgz#faf7da660d3f284ed695cff61ea197d85b9122cc"
+  integrity sha512-050uqgB7WdvtgacoQKm+4EgKzJExVq0sieKBQQtJiU3Muh6MYcCp4T3M8+dfl6VOF2LR0NNwXBP1QYEed8DfIw==
+  dependencies:
+    hey-listen "^1.0.8"
+    tslib "^1.10.0"
+
 styled-components@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-4.1.1.tgz#943922048fae556e286bcbfdd29da4f1399446bc"
@@ -8200,15 +8219,16 @@ styled-components@^4.1.1:
     stylis-rule-sheet "^0.0.10"
     supports-color "^5.5.0"
 
-stylefire@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/stylefire/-/stylefire-7.0.0.tgz#2ae16a97f41b8664f2501252ee40c19baba0ea22"
-  integrity sha512-Ea1knZTN5KmbUKSilTsjFEtHcGs+Vl+cQWNnvWQwqRVG+W6J/WgkWjo620hf4II/PTH8uSIF17vGrkpHC41nAA==
+stylefire@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/stylefire/-/stylefire-7.0.3.tgz#9120ecbb084111788e0ddaa04074799750f20d1d"
+  integrity sha512-Q0l7NSeFz/OkX+o6/7Zg3VZxSAZeQzQpYomWmIpOehFM/rJNMSLVX5fgg6Q48ut2ETNKwdhm97mPNU643EBCoQ==
   dependencies:
-    "@popmotion/popcorn" "^0.4.2"
+    "@popmotion/popcorn" "^0.4.4"
     framesync "^4.0.0"
     hey-listen "^1.0.8"
-    style-value-types "^3.1.6"
+    style-value-types "^3.1.7"
+    tslib "^1.10.0"
 
 stylis-rule-sheet@^0.0.10:
   version "0.0.10"
