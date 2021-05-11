@@ -64,7 +64,7 @@
         "jest-junit": "^6.4.0",
         "jest-watch-typeahead": "^0.4.2",
         "lint-staged": "^8.0.4",
-        "lodash": "^4.17.13",
+        "lodash": "^4.17.21",
         "prettier": "^1.15.2",
         "progress-bar-webpack-plugin": "^1.11.0",
         "react": "^16.12.0",
